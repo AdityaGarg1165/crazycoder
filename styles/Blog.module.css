@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    align-items: center;
+    margin-left: 85vh;
+}
+.main {
+    min-height: 100vh; 
+    flex: 1;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    justify-content: flex-start;
+      padding-top: 3rem;
+  }
+.seperator{
+    margin-top: 6vh;
+}
+.blogItemh3{
+    cursor: pointer;
+    font-size: 2rem;
+    margin-top: 2vh;
+    /* margin: 0; */
+    padding: 0;
+}
+.blogItemp{
+    max-width: 45vw;
+}
+
+.btn{
+    color: white;
+      background: rgb(34, 34, 34);
+      padding: 7px 6px;
+      cursor: pointer;
+      border-radius: 6px;
+      font-size: 12px;
+      margin-bottom: 9px; 
+  }
