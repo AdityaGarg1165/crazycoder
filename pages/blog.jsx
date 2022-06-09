@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
-import SanityClient  from './client';
+import SanityClient  from '../client';
 import styles from '../styles/Blog.module.css'
 // import Link from 'next/link';
 import InfiniteScroll from 'react-infinite-scroll-component';

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import PortableText from 'react-portable-text'
-import SanityClient from '../client';
+import SanityClient from '../../client';
 import { useRouter } from 'next/router'
 import styles from '../../styles/BlogPost.module.css'
 
